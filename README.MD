@@ -10,7 +10,7 @@ Show the lowest price based on maximun selling qty.
 
 ### Enable
 
-Go to Stores -> Settinigs -> Configuration -> Catalog -> Catalog -> Price
+Go to Stores -> Settings -> Configuration -> Catalog -> Catalog -> Price
 
 Set "Use lowest price for tier": yes
 
