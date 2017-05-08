@@ -1,5 +1,5 @@
 {
-    "name": "msp/UseLowestPriceForTier",
+    "name": "msp/uselowestpricefortier",
     "description": "",
     "require": {
         "php": "~7.0.0",
@@ -19,12 +19,10 @@
             "MSP\\UseLowestPriceForTier\\": ""
         }
     },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "MSP/UseLowestPriceForTier"
-            ]
-        ]
-    }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/magespecialist/m2-MSP_UseLowestPriceForTier"
+        }
+    ]
 }
