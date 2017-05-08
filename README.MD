@@ -1,6 +1,6 @@
 # MSP_UseLowestPriceForTier
 
-Code Monkey is a Magento 2 developers tool to type less and do more :) .
+Show the lowest price based on maximun selling qty.
 
 ## Installation
 
