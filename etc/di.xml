@@ -20,4 +20,10 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="Magento\GroupedProduct\Pricing\Price\FinalPrice"
                 type="MSP\UseLowestPriceForTier\Model\Pricing\Price\FinalPrice"/>
+    <preference for="Magento\Catalog\Block\Product\ProductList\Related"
+                type="MSP\UseLowestPriceForTier\Block\Product\ProductList\Related"/>
+    <preference for="Magento\Catalog\Block\Product\ProductList\Upsell"
+                type="MSP\UseLowestPriceForTier\Block\Product\ProductList\Upsell"/>
+    <preference for="Magento\Catalog\Block\Product\ProductList\Crosssell"
+                type="MSP\UseLowestPriceForTier\Block\Product\ProductList\Crosssell"/>
 </config>
